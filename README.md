@@ -1,0 +1,4 @@
+inheritjs
+=========
+
+JavaScript prototypal inheritance 
