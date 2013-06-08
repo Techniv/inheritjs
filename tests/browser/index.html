@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script src="../../libs/ineritjs.js"></script>
+		<script type="text/javascript">
+			function A(x){
+				var a = x;
+
+				this.getA = function getA(){
+					return a;
+				}
+			}
+
+			function B(x){
+				var b = x*2;
+
+				this.getB = function getB(){
+					return b;
+				}
+			}
+		</script>
+	</body>
+</html>

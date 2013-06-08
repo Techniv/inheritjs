@@ -1,0 +1,29 @@
+{
+	"name": 		"inheritjs",
+	"description":	"",
+	"version":		"0.0.1",
+
+	"author":	{
+		"name": 	"Vincent Peybernes",
+		"email":	"vpeybernes.pro@gmail.com",
+		"url":      "https://github.com/Techniv"
+	},
+
+	"homepage":     "https://github.com/Techniv/inheritjs",
+	"bugs":	{"url" :"https://github.com/Techniv/inheritjs/issues"},
+	"license":      "MIT",
+
+	"repository":{
+		"type":	"git",
+		"url":	"https://github.com/Techniv/inheritjs.git"
+	},
+
+	"engine": {"node": ">=0.8.*"},
+
+	"devDependencies": {},
+
+	"devDependencies": {
+		"grunt": "*",
+		"grunt-contrib-nodeunit": "*"
+	}
+}
