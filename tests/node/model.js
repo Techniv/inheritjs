@@ -40,3 +40,25 @@ module.exports = {
 		};
 	}
 };
+
+module.exports.A.prototype.do = function(){
+	return 'A';
+};
+module.exports.B.prototype.do = function(){
+	return 'B';
+};
+module.exports.A.prototype.doA = function(){
+	return 'A';
+};
+module.exports.B.prototype.doB = function(){
+	return 'B';
+};
+module.exports.AB.prototype.do = function(){
+	return 'B';
+};
+module.exports.AB.prototype.doA = function(){
+	return 'A';
+};
+module.exports.AB.prototype.doB = function(){
+	return 'B';
+};

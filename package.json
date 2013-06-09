@@ -1,7 +1,7 @@
 {
 	"name": 		"inheritjs",
 	"description":	"",
-	"version":		"0.0.1",
+	"version":		"0.0.1-dev",
 
 	"author":	{
 		"name": 	"Vincent Peybernes",
@@ -20,7 +20,7 @@
 
 	"engine": {"node": ">=0.8.*"},
 
-	"devDependencies": {},
+	"dependencies": {},
 
 	"devDependencies": {
 		"grunt": "*",
