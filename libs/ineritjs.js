@@ -3,7 +3,7 @@
  * https://github.com/Techniv/inheritjs
  *
  * Released under the MIT License.
- * https://github.com/Techniv/inheritjs/LICENSE
+ * https://github.com/Techniv/inheritjs/blob/master/LICENSE
  */
 
 
