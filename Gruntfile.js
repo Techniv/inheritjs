@@ -7,6 +7,8 @@ module.exports = function(grunt){
 		}
 	});
 
+	grunt.registerTask('default', ['nodeunit']);
+
 	grunt.loadNpmTasks("grunt-contrib-nodeunit");
 
 };
