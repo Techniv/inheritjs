@@ -18,10 +18,10 @@
 	 */
 	function ineritjs(parent, constructor, prototype){
 		//TODO external prototype.
-		var lightParent = function(){};
-		lightParent.prototype = parent.prototype;
+		var LightParent = new Function;
+		LightParent.prototype = parent.prototype;
 
-		constructor.prototype.__proto__ = new lightParent;
+		constructor.prototype.__proto__ = new LightParent();
 
 		return function(){
 			this.__proto__ = constructor.prototype;
